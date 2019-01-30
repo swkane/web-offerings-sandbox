@@ -1,3 +1,16 @@
+## Get Started with Flow
+
+Flow is a static type checker that helps you write code with fewer bugs. Check out this introduction to using static types in JavaScript if you are new to this concept.
+
+Recent versions of Flow work with Create React App projects out of the box.
+
+To add Flow to a Create React App project, follow these steps:
+
+Run npm install --save flow-bin (or yarn add flow-bin).
+Add "flow": "flow" to the scripts section of your package.json.
+Run npm run flow init (or yarn flow init) to create a .flowconfig file in the root directory.
+Add // @flow to any files you want to type check (for example, to src/App.js).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
